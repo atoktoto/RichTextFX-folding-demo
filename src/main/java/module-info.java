@@ -11,6 +11,7 @@ module outlinerfx.main {
     requires undofx;
     requires kotlinx.coroutines.core.jvm;
     requires java.xml.bind;
+    requires flowless;
 
 
     exports richtext.demo.folding;
